@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.issue-card {
+    border: 1px solid #e1e4e8; /* GitHub-like border color */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+    .issue-card:hover {
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }

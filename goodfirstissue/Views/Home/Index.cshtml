@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<input id="languageInput" type="text" placeholder="Enter language..." />
+<select id="sortByInput">
+    <option value="updated_desc">Last Updated (Newest First)</option>
+    <option value="updated_asc">Last Updated (Oldest First)</option>
+    <option value="created_desc">Date Created (Newest First)</option>
+    <option value="created_asc">Date Created (Oldest First)</option>
+    <option value="comments">Number of Comments</option>
+    <!-- Add other criteria if necessary -->
+</select>
+
+<button id="fetchButton">Fetch Issues</button>
+
+
+<div id="results"></div>
+
+
